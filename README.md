@@ -7,7 +7,7 @@
 
   一款在 Windows 本地运行的文件整理助手：自定义分类规则、托管多个文件夹、批量迁移，随时查看记录并撤销。
 
-  [下载安装版](https://github.com/Asherzxh/orderly-files/releases/latest) · [下载便携版](https://github.com/Asherzxh/orderly-files/releases/latest) · [使用指南](#使用指南) · [从源码运行](#从源码运行)
+  [下载安装版](https://github.com/Asherzxh/orderly-files/releases/download/v1.0.0/Orderly-Files-Setup-v1.0.0.exe) · [下载便携版](https://github.com/Asherzxh/orderly-files/releases/download/v1.0.0/Orderly-Files-Portable-v1.0.0.zip) · [使用指南](#使用指南) · [从源码运行](#从源码运行)
 
   ![平台](https://img.shields.io/badge/platform-Windows%20x64-4067d9?style=flat-square)
   ![版本](https://img.shields.io/badge/version-1.0.0-8b72df?style=flat-square)
@@ -36,8 +36,8 @@
 
 | 文件 | 用法 | 数据保存位置 |
 | --- | --- | --- |
-| `归序-Setup-v1.0.0.exe` | 双击安装；之后从开始菜单启动，可在 Windows 设置中卸载 | `%LOCALAPPDATA%\GuiyiOrganizer` |
-| `归序-便携版.zip` | 完整解压，再双击文件夹内的 `归序.exe` | 便携文件夹内的 `用户数据` |
+| [`Orderly-Files-Setup-v1.0.0.exe`](https://github.com/Asherzxh/orderly-files/releases/download/v1.0.0/Orderly-Files-Setup-v1.0.0.exe) | 双击安装；之后从开始菜单启动，可在 Windows 设置中卸载 | `%LOCALAPPDATA%\GuiyiOrganizer` |
+| [`Orderly-Files-Portable-v1.0.0.zip`](https://github.com/Asherzxh/orderly-files/releases/download/v1.0.0/Orderly-Files-Portable-v1.0.0.zip) | 完整解压，再双击文件夹内的 `归序.exe` | 便携文件夹内的 `用户数据` |
 
 两个版本均面向 **Windows x64**，运行时不需要安装 Python。安装包为离线安装，不会在安装过程中下载组件。当前安装包尚未数字签名，Windows 可能提示“未知发布者”；如需核对下载文件，可比对 Release 附带的 `SHA256.json`。
 
