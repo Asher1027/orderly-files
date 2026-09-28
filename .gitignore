@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.build-venv/
+.venv/
+venv/
+*.egg-info/
+build/
+release/
+dist/
+*.spec
+用户数据/
+**/用户数据/
+preview-*.png
+!preview-local.png
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# This Windows x64 project only needs the matching bundled tkdnd libraries.
+/vendor/tkinterdnd2/tkdnd/*/
+!/vendor/tkinterdnd2/tkdnd/win-x64/
+!/vendor/tkinterdnd2/tkdnd/win-x64-tcl9/
